@@ -1,2 +1,2 @@
 # TIL
-Today I Learn
+- 새로운 것을 배울때마다 기록하기
