@@ -28,4 +28,23 @@
     * 동적 컨텐츠는 몇시간동안만 유지되야한다.
 
 # uniform interface
-*
+* Identification of resources : URI 표준을 사용하여 리소스를 식별합니다.
+
+* Manipulation of resources through these representations : HTTP 표준을 사용하여 메세지에 표현하여 통신한다.
+    * 예를들어 GET은 데이터를 URI 식별 리소스에 대한 데이터를 검색. 즉, HTTP메서드와 URI를 사용하여 작업을 설명 할 수 있다.
+
+* Self-descriptive messages : (공부 필요)
+
+* Hypermedia as the engine of application state (HATEOAS) : (공부 필요)
+
+
+# layered system
+* 서버는 다중 계층으로 구성될 수 있으며 특정 계층(로드 밸런싱, 암호화 등)을 추가하여 구조를 변경할 수 있다. 또한 네트워크 기반의 중간매체(Proxy, Gateway)를 사용할 수 있게 해준다. 하지만 클라이언트는 서버와 직접 통신을 하는지, 중간 서버와 통신하는지 알 수 없다.
+
+
+
+
+
+# reference
+* https://stackoverflow.com/questions/25172600/rest-what-exactly-is-meant-by-uniform-interface
+* https://www.youtube.com/watch?v=RP_f5dMoHFc&t=678s
