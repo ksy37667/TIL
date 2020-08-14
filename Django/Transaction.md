@@ -67,3 +67,6 @@ class RegisterForm(forms.Form):
 ```
 * 이러한 방식으로 데이터베이스의 관련된 동작들을 하나의 트랜잭션으로 처리 할 수 있다.
 
+
+# 🔍Django transaction 공식문서
+* [Django Database transactions](https://docs.djangoproject.com/en/3.0/topics/db/transactions/)
