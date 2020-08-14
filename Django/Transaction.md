@@ -36,7 +36,7 @@ class RegisterForm(forms.Form):
 from django.db import transaction
 ```
 
-* `with transaction.atomic()` 으로 감싸서 데이터베이스에 관련된 동작들을 하나의 트랜잭션으로 처리한다.
+* `with transaction.atomic()` 으로 하나의 트랜잭션으로 동작할 수 있게 감싼다.
 ```python
 
 ```python
@@ -65,3 +65,5 @@ class RegisterForm(forms.Form):
             #.................
             #.................
 ```
+* 이러한 방식으로 데이터베이스의 관련된 동작들을 하나의 트랜잭션으로 처리 할 수 있다.
+
