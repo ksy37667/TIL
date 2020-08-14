@@ -41,7 +41,7 @@ from django.db import transaction
 
 ```python
 #........................ 
-from django.db import transaction
+from django.db import transaction # 추가된 코드
 
 class RegisterForm(forms.Form):
     #............................
@@ -51,7 +51,7 @@ class RegisterForm(forms.Form):
         # .......
 
         if quantity and product and shopuser:
-            with transaction.atomic():
+            with transaction.atomic(): # 추가된 코드
                 prod = Product.objects.get(pk=product)
                 order = Order(
                     quantity = quantity,
