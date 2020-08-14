@@ -1,0 +1,3 @@
+# 🔍get_queryset vs queryset
+* 정리예정... 
+    * https://stackoverflow.com/questions/19707237/use-get-queryset-method-or-set-queryset-variable
