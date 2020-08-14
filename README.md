@@ -5,7 +5,7 @@
 ## Django
 - [클래스형 뷰와 함수형 뷰의 차이점](Django/CBV_vs_FBV.md)
 - [Django에서 트랜잭션 처리하기](Django/Transaction.md)
-- [get_queryset vs queryset](Django/get_queryset_vs_queryset)
+- [get_queryset vs queryset](Django/get_queryset_vs_queryset.md)
 
 ## WEB
 - ['그런 REST API로 괜찮은가' 영상 정리](Web/REST_API.md)
