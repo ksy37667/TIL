@@ -8,7 +8,7 @@
 <!-- - [get_queryset vs queryset](Django/get_queryset_vs_queryset.md) -->
 
 ## 🔍DRF(Django REST Framework)
-- [Serializer](DRF/Serializer/Serializer.md)
+- [Serializer & ViewSet](DRF/Serializer/Serializer.md)
 
 
 ## 🔍WEB

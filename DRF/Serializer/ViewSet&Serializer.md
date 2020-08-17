@@ -1,4 +1,4 @@
-# 🔍Django Rest Framework - Serializer
+# 🔍Django Rest Framework - Serializer & ViewSet
 * `Serializer`는 queryset이나 model instance 같은 복잡한 데이터를 JSON으로 반환하게 해준다.
 * 어떻게보면 Django의 Form과 유사할 수 있는데 Form은 html을 직접 생성하고 `Serializer`는 JSON을 생성한다.
 
@@ -82,3 +82,7 @@ urlpatterns = [
 * `http://127.0.0.1:8000/post/<int:pk>/`
 
 ![](https://github.com/ksy37667/TIL/blob/master/DRF/Serializer/img/drf3.PNG)
+
+
+# 🔍reference
+* [https://ssungkang.tistory.com/entry/Django-APIView-Mixins-generics-APIView-ViewSet%EC%9D%84-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90?category=366160]
