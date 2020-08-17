@@ -85,4 +85,5 @@ urlpatterns = [
 
 
 # 🔍reference
-* [https://ssungkang.tistory.com/entry/Django-APIView-Mixins-generics-APIView-ViewSet%EC%9D%84-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90?category=366160]
+* [[Django] APIView, Mixins, generics APIView, ViewSet을 알아보자](https://ssungkang.tistory.com/entry/Django-APIView-Mixins-generics-APIView-ViewSet%EC%9D%84-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90?category=366160)
+* [[Django] django rest framework 를 위한 JSON 직렬화](https://ssungkang.tistory.com/entry/Django-django-rest-framework-%EB%A5%BC-%EC%9C%84%ED%95%9C-JSON-%EC%A7%81%EB%A0%AC%ED%99%94?category=366160)
