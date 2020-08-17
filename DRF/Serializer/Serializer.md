@@ -72,7 +72,7 @@ urlpatterns = [
 # 🔍결과 화면
 * `http://127.0.0.1:8000/` 
 
-![](./img/drf1.png)
+![](./DRF/Serializer/img/drf1.png)
 
 * `http://127.0.0.1:8000/post`
 
