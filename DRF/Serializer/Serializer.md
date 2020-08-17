@@ -72,12 +72,12 @@ urlpatterns = [
 # 🔍결과 화면
 * `http://127.0.0.1:8000/` 
 
-![](img/drf1.png)
+![](./img/drf1.png)
 
 * `http://127.0.0.1:8000/post`
 
-![](img/drf2.png)
+![](./img/drf2.png)
 
 * `http://127.0.0.1:8000/post/<int:pk>/`
 
-![](img/drf3.png)
+![](./img/drf3.png)
