@@ -72,12 +72,12 @@ urlpatterns = [
 # 🔍결과 화면
 * `http://127.0.0.1:8000/` 
 
-![](./DRF/Serializer/img/drf1.png)
+![](https://github.com/ksy37667/TIL/blob/master/DRF/Serializer/img/drf1.PNG)
 
 * `http://127.0.0.1:8000/post`
 
-![](./img/drf2.png)
+![](https://github.com/ksy37667/TIL/blob/master/DRF/Serializer/img/drf1.PNG)
 
 * `http://127.0.0.1:8000/post/<int:pk>/`
 
-![](./img/drf3.png)
+![](https://github.com/ksy37667/TIL/blob/master/DRF/Serializer/img/drf1.PNG)
