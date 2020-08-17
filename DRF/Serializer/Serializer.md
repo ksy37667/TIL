@@ -30,6 +30,7 @@ class PostSerializer(ModelSerializer):
         fields = '__all__'
 ```
 <br>
+
 * view 로 불러와서 처리하는 방법이 여러가지가 있는데 여기서는 가장 간단한 `ViewSet`을 사용한다.
 
 * `ViewSet`을 사용하면 특정 레코드의 CRUD 및 Retrieve를 하나의 클래스로 구현할 수 있다.
