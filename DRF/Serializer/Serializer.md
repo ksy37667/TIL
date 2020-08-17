@@ -76,8 +76,8 @@ urlpatterns = [
 
 * `http://127.0.0.1:8000/post`
 
-![](https://github.com/ksy37667/TIL/blob/master/DRF/Serializer/img/drf1.PNG)
+![](https://github.com/ksy37667/TIL/blob/master/DRF/Serializer/img/drf2.PNG)
 
 * `http://127.0.0.1:8000/post/<int:pk>/`
 
-![](https://github.com/ksy37667/TIL/blob/master/DRF/Serializer/img/drf1.PNG)
+![](https://github.com/ksy37667/TIL/blob/master/DRF/Serializer/img/drf3.PNG)
