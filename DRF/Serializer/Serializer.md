@@ -11,7 +11,7 @@ from django.fb import models
 class Post(models.Model):
     title = models.CharField(max_length=128)
     content = models.TestField()
-    username = models.Foreignkey('postuser.Postuser', on_ondelete=models.CASCADE)
+    postuser = models.Foreignkey('postuser.Postuser', on_ondelete=models.CASCADE)
     created_at = models.DateTimeField(auto_now_add=True)
     update_at = models.DateTimeField(auto_now=True)
 ```
