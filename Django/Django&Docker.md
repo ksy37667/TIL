@@ -146,3 +146,9 @@ $ docker-compose exec web python manage.py migrate
 ```
 
 * 마지막으로 `docker-compose down` 으로 모든 서비스를 종료하고 컨테이너와 네트워크를 삭제할 수 있습니다.
+
+
+# 참고문서
+
+- [Compose and Django](https://docs.docker.com/compose/django/)
+- [Dale Seo님 블로그](https://www.daleseo.com/docker-compose-django/)
