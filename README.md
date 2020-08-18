@@ -6,6 +6,7 @@
 - [클래스형 뷰와 함수형 뷰의 차이점](Django/CBV_vs_FBV.md)
 - [Django에서 트랜잭션 처리하기](Django/Transaction.md)
 - [Django Channels](https://github.com/ksy37667/DjangoChat)
+- [Docker Compose로 Django 프로젝트 셋팅하기](Django/Django&Docker.md)
 <!-- - [get_queryset vs queryset](Django/get_queryset_vs_queryset.md) -->
 
 ## 🔍DRF(Django REST Framework)
