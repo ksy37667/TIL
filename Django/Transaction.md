@@ -32,12 +32,12 @@ class RegisterForm(forms.Form):
 * 상품주문을 등록할 때 `quantity` 의 값이 주문정보 테이블에 저장이 됐다면 당연히 재고의 양을 저장한 데이터의 갱신도 이루어져야 하기 때문에 transaction 을 사용하여 두개의 작업을 하나의 단위로 묶어야한다.
 
 * 먼저 아래처럼 transaction을 import 해준다.
+
 ```python
 from django.db import transaction
 ```
 
 * `with transaction.atomic()` 으로 하나의 트랜잭션으로 동작할 수 있게 감싼다.
-```python
 
 ```python
 #........................ 
