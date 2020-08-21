@@ -7,6 +7,7 @@
 - [Django에서 트랜잭션 처리하기](Django/Transaction.md)
 - [Django Channels](https://github.com/ksy37667/DjangoChat)
 - [Docker Compose로 Django 프로젝트 셋팅하기](Django/Django&Docker.md)
+- [Django User model 커스터마이징 하기](Django/CustomUserModel.md)
 <!-- - [get_queryset vs queryset](Django/get_queryset_vs_queryset.md) -->
 
 ## 🔍DRF(Django REST Framework)
