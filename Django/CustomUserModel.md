@@ -64,6 +64,8 @@ def save_user_profile(sender, instance, **kwargs):
 * `AbstractBaseUser`모델을 상속한 User 모델을 만들고 `Settings.py에 참조를 수정해서 사용한다.
 * 기본적인 User model 에서는 username을 id로 사용하지만 email을 id로 사용한다거나, 다른 다양한 정보들을 추가하고 싶을 때 사용한다.
 
+*  Django 로그인 절차가 아닌 인증 절차를 직접 구현하고자 할 때 사용할 수 있다.
+
 ```python
 class User(AbstractBaseUser, PermissionsMixin):
     objects = UserManager()
