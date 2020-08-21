@@ -159,3 +159,9 @@ class User(AbstractUser):
 ```
 
 * 위와 똑같이  `settings.py`에 `AUTH_USER_MODEL = '[APPNAME].User'`를 설정해줘야한다.
+
+
+# 🔍참고
+* [How to Extend Django User Model](https://simpleisbetterthancomplex.com/tutorial/2016/07/22/how-to-extend-django-user-model.html)
+* [django login 유저 확장 방법](https://yonghyunlee.gitlab.io/python/user-extend/)
+* [User 모델의 확장 기법 비교 wikidocs](https://wikidocs.net/6651)
