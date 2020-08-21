@@ -33,7 +33,7 @@ class Person(User):
 
 <br><br>
 
-## User model 과 ont-to-ont 연결
+## User model 과 one-to-one 연결
 
 * 기존 User 모델과 OneToOneField 로 일대일 관계를 맺는 Django 모델을 추가해서 사용자에 관한 정보를 저장하는 것이다.
 * Django의 인증 시스템을 그대로 활용면서 로그인, 권한 부여 등과 상관이 없는 사용자 정보 필드를 저장할 때 사용하는 기법이다.
