@@ -25,3 +25,31 @@ function Example(){
 }
 ```
 
+
+* useState 사용예제
+```javascript
+import React, { useState }from 'react'
+
+export const NumCountButton = () => {
+    const [number, setNumber] = useState(0);
+
+    const plusValue = () =>{
+        setNumber(number+1);
+    }
+    const minusValue = () =>{
+        setNumber(number-1);
+    }
+
+    return (
+        <div>
+            <p>
+                현재 값은 <b>{number}</b> 입니다.
+            </p>
+            <button onClick={plusValue}>+1</button>
+            <button onClick={minusValue}>-1</button>
+        </div>
+    )
+}
+
+export default NumCountButton
+```
