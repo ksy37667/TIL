@@ -15,7 +15,7 @@ class Example extends React.Component {
 }
 ```
 
-함수형 컴포넌트는 `this`를 사용할 수 없기 때문에 `this.state`처럼 할당하거나 읽을 수 없습니다. 대신 `useState` 를 사용하면 됩니다.
+함수형 컴포넌트는 `this`를 사용할 수 없기 때문에 `this.state`처럼 할당하거나 읽을 수 없습니다.<br>대신 `useState` 를 사용하면 됩니다.
 
 ```javascript
 import React, { useState } from 'react';
