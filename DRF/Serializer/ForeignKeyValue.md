@@ -46,7 +46,10 @@ class BoardSerializer(serializers.ModelSerializer):
         # fields = '__all__'
         fields = ('id','title', 'content', 'username', 'created_at', 'updated_at')
 ```
-* 다음과 같이 BoardSerializer에 `author.username`을 username에 제공해줘서 직렬화 할 때 원하는 속성을 추가해주는 방식으로 해결했다.
+* 다음과 같이 BoardSerializer에 `author.username`을 username에 제공해줘서 직렬화 할 때 원하는 속성을 추가해주었다.
+
+* 그 후 `fields`에 `author` 대신 `username` 값을 추가해주었다. 
+
 <br>
 <br>
 
