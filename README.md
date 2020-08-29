@@ -12,7 +12,7 @@
 
 ## 🔍DRF(Django REST Framework)
 - [Serializer & ViewSet](DRF/Serializer/ViewSet&Serializer.md)
-- [Django에서 외래키(foreign key)에 해당하는 모델 값 직렬화 하는법][DRF/Serializer/ForeignKeyValue.md]
+- [Django에서 외래키(foreign key)에 해당하는 모델 값 직렬화 하는법](DRF/Serializer/ForeignKeyValue.md)
 
 
 ## 🔍WEB
