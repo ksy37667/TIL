@@ -1,4 +1,4 @@
-## 🔍Django에서 외래키(foreign key)에 해당하는 모델 값 직렬화 하는법
+## 🔍Django에서 외래키(foreign key)에 해당하는 모델 값 serializing 하는법
 
 * 장고 모델을 Serializing해서 JSON 형태로 프론트앤트에 뿌려주는 API 만들었다.
 
