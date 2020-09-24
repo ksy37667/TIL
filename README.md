@@ -22,3 +22,6 @@
 ## 🔍React
 * [React의 이벤트 처리(Event Handling)](React/React_EventHandling.md)
 * [React Hook](React/Hook.md)
+
+## 🔍Algorithm & Data Structure
+* [Segment Tree](Algorithm/Segment_Tree.md)
