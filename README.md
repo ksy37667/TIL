@@ -3,7 +3,7 @@
 ---
 
 ## 🔍ios
-- [MVVM vs MVC vs MVP](ios/MVVM,MVC,MVP)
+- [MVVM vs MVC vs MVP](ios/MVVM,MVC,MVP.md)
 
 ## 🔍Django
 - [클래스형 뷰와 함수형 뷰의 차이점](Django/CBV_vs_FBV.md)
