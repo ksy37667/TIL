@@ -2,6 +2,9 @@
 - 새로운 것을 배울때마다 기록하기
 ---
 
+## 🔍ios
+- [MVVM vs MVC vs MVP](ios/MVVM,MVC,MVP)
+
 ## 🔍Django
 - [클래스형 뷰와 함수형 뷰의 차이점](Django/CBV_vs_FBV.md)
 - [Django에서 트랜잭션 처리하기](Django/Transaction.md)
