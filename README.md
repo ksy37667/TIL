@@ -4,7 +4,7 @@
 
 ## Spring
 - [IOC Container](Spring/IOCContainer.md)
-- [Bean](Spring/Bean.md)
+- [Bean](Spring/bean.md)
 - [AOP](Spring/AOP.md)
 
 ## 🔍ios
