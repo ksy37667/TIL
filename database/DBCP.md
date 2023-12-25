@@ -20,10 +20,7 @@
 ※ **minimumidle 의 값과 maximumPoolSize의 값을 동일하게 설정하는 것을 권장한다.**
 
 
-<br><br>
-
-## maxLifetime
-
+### maxLifetime
 - pool엣더 connection의 최대 수명
 - maxLifetime을 넘기면 idle일 경우 pool에서 바로 제거, active인 경우 pool로 반환된 후 제거
 - DB의 connection time limit(wait time)보다 약간 짧게 설정해야 한다.
