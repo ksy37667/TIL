@@ -8,7 +8,7 @@
 - GC를 구행하기 위해 JVM이 멈추는 현상을 의미
 - GC가 작동하는 동안 GC관련 Thread를 제외한 모든 Thread는 멈춤
 
-![Untitled](Garbage%20Collection%2066b85441a34543d592b7a3c914cc3c1b/Untitled.png)
+![Untitled](img/GC.png)
 
 ### Young 영역
 
